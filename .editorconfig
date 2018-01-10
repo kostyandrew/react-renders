@@ -1,0 +1,11 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+tab_width=2
+max_line_length=80
+
+[*.{json,js,css,pcss}]
+charset = utf-8
+indent_style = tab
+quote_type=double
+continuation_indent_size=2
