@@ -1,0 +1,1 @@
+function registerComponent(appKey, componentProvider) {}

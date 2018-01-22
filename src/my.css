@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
+
+a {
+	color: #7b0046;
+	text-decoration: none;
+}
