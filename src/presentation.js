@@ -144,10 +144,10 @@ export default class Presentation extends React.Component {
 					<Header>Переваги</Header>
 					<List>
 						<ListItem>Одне API</ListItem>
+						<ListItem>Схожа логіка для різних платформ</ListItem>
 						<ListItem>Додаткові інструменти, бібліотеки</ListItem>
 						<ListItem>Зменшення затрат часу</ListItem>
 						<ListItem>Перевикористання коду</ListItem>
-						<ListItem>Схожа логіка для різних платформ</ListItem>
 					</List>
 				</Slide>
 
@@ -169,6 +169,12 @@ export default class Presentation extends React.Component {
 					</List>
 				</Slide>
 
+				<Slide bgColor="secondary">
+					<Heading size={1} fit caps style={{ fontFamily: "Times New Roman" }} textColor="primary">
+						Fin
+					</Heading>
+				</Slide>
+
 				<Slide bgColor="white">
 					<Image src={require("./resources/slides.png")} height={"50vh"} />
 					<Text textColor="secondary">
@@ -176,12 +182,6 @@ export default class Presentation extends React.Component {
 							kostyandrew.github.io/react-renders/
 						</Link>
 					</Text>
-				</Slide>
-
-				<Slide bgColor="secondary">
-					<Heading size={1} fit caps style={{ fontFamily: "Times New Roman" }} textColor="primary">
-						Fin
-					</Heading>
 				</Slide>
 			</Deck>
 		);
